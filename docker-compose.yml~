@@ -17,7 +17,7 @@ rabbitmq:
 jenkins:
   image: jenkins
   ports:
-    - "50000:8080"
+    - "50000:50000"
 
 # NOTES:
 #   - The C_FORCE_ROOT variable allows celery to run as the root user.
